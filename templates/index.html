@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Me Judge</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>⚖️ FUTURE ME JUDGE</h1>
+        <p class="subtitle">Your decisions today, judged by the person you become.</p>
+
+        <div class="input-area">
+            <input type="text" id="actionInput" placeholder="Enter a life choice (e.g., Buying a boat)...">
+            <div class="button-group">
+                <button id="submitBtn">SIMULATE FUTURE</button>
+                <button id="sampleBtn" class="secondary-btn">Try Sample</button>
+            </div>
+        </div>
+
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p>CONSULTING THE TIMELINE...</p>
+        </div>
+
+        <div id="results" class="results-area hidden">
+            <div class="card best">
+                <div class="card-header"><span>🚀</span><h4>BEST CASE</h4></div>
+                <p id="bestText"></p>
+            </div>
+
+            <div class="card worst">
+                <div class="card-header"><span>💀</span><h4>WORST CASE</h4></div>
+                <p id="worstText"></p>
+            </div>
+
+            <div class="card unexpected">
+                <div class="card-header"><span>🌀</span><h4>UNEXPECTED</h4></div>
+                <p id="unexpectedText"></p>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
