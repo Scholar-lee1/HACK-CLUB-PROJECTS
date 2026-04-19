@@ -53,8 +53,12 @@ This project was built using a **vibe coding approach**:
 Coming soon...
 
 ---
-
-
+## 📌 Project Structure
+app.py
+services/
+templates/
+static/
+requirements.txt
 ---
 
 ## 🎯 Inspiration
@@ -65,4 +69,4 @@ This tool helps visualize possible futures before taking action.
 
 ## 👨‍💻 Author
 Abdullah Qamardeen
-## 📌 Project Structure
+
