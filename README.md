@@ -17,7 +17,8 @@ Best Case; Worst Case; Unexpected Outcome
 - Python (Flask)  
 - HTML  
 - Vanilla CSS  
-- JavaScript (Fetch API)  
+- JavaScript (Fetch API)
+###### NB: The project includes a scalfolding learning(some features[such as connecting to an API and Revising the layout structure] were done through vibing)
 
 ## Navigating the setup
 1. Enter a decision  
